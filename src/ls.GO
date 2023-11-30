@@ -4,14 +4,12 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
-	"os"
 )
 
 func main() {
-	// Spécifiez le chemin du répertoire que vous souhaitez inspecter
-	directoryPath := "/"
 
-	// Obtenez la liste des fichiers dans le répertoire
+	directoryPath := "."
+
 	fileList, err := ioutil.ReadDir(directoryPath)
 	if err != nil {
 		log.Fatal(err)
