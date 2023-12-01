@@ -1,4 +1,4 @@
-Ce code a été codé en go et permet de lire les fichiers sur le repertoire locale
+Ce code a été réaliser en go et permet de lire les fichiers sur le repertoire locale
 
 ## Comment installer
 
